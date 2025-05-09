@@ -1,6 +1,6 @@
 SoftSell Landing Page
 
-Link :  soft-sell-landing-page-delta.vercel.app
+Link :  https://soft-sell-landing-page-delta.vercel.app/
 
 1. Single Page Layout
 
