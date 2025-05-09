@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Default light mode */
+body {
+  background-color: white;
+  color: black;
+}
+
+button.mode-toggle {
+  background-color: #3182ce;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Dark mode styles */
+body.dark {
+  background-color: #1a202c;
+  color: white;
+}
+
+body.dark button.mode-toggle {
+  background-color: #2b6cb0;
+}

@@ -1,0 +1,39 @@
+.why-choose-us {
+  padding: 4rem 2rem;
+  background-color: #ebf8ff; /* light blue */
+  text-align: center;
+}
+
+body.dark .why-choose-us {
+  background-color: #2a4365;
+  color: white;
+}
+
+.why-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.feature {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.feature-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+body.dark .feature {
+  background-color: #2d3748;
+  color: white;
+}

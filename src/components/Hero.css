@@ -1,0 +1,47 @@
+
+
+/* src/components/Hero.css */
+.hero {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: linear-gradient(to right, #ebf8ff, #bee3f8);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark .hero {
+  background: linear-gradient(to right, #2a4365, #1a365d);
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.hero-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #2b6cb0;
+}
+
+body.dark .hero-button {
+  background-color: #63b3ed;
+  color: black;
+}
+
+body.dark .hero-button:hover {
+  background-color: #4299e1;
+}
